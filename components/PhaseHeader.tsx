@@ -151,7 +151,7 @@ export const PhaseHeader = ({ candyMachine, whiteList }: PhaseHeaderProps) => {
 
       {phase === Phase.Live && (
         <Header
-          phaseName={`Curious Capys First Edition!`}
+          phaseName={`Curious Capys`}
           desc={"Relative to the domesticated Guinea Pig, our curious capybaras are here to graze on the luscious grasses of the Solana ecosystem. https://www.curiouscapys.club/"}
           date={candyMachine?.state.goLiveDate}
           status={whiteList ? "White List Activated" : "LIVE"}
